@@ -20,6 +20,11 @@ function App() {
       <SayHello personName="Daniele"></SayHello>
       <hr />
       <hr />
+      <hr />
+      <br />
+      <hr />
+      <hr />
+      <hr />
       <h2>ESERCIZIO 1</h2>
       <ButtonComponent buttonNumber="Button 1"></ButtonComponent>
       <ButtonComponent buttonNumber="Button 2"></ButtonComponent>
@@ -30,14 +35,17 @@ function App() {
       <ImageComponent
         src="https://cdn.wallpapersafari.com/64/77/S1giRy.jpg"
         alt="Bahamas beach"
+        className="img"
       ></ImageComponent>
       <ImageComponent
         src="https://i0.wp.com/whitecoatsoftheroundtable.com/wp-content/uploads/2023/03/hd-wallpaper-nature-wallpaper-hills-2836301.jpg?resize=800%2C600&ssl=1"
         alt="Plains"
+        className="img"
       ></ImageComponent>
       <ImageComponent
         src="https://www.martulliviaggi.com/wp-content/uploads/2024/07/big-ticket-image-65ef1da4cba4a626865154-cropped600-400.png"
         alt="Dolomiti Sunset"
+        className="img"
       ></ImageComponent>
 
       {/* <div>
