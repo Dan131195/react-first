@@ -1,6 +1,6 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
 import FunctionalComponent from "./components/FunctionalComponents";
 import ClassComponent from "./components/ClassComponent";
@@ -9,7 +9,7 @@ import ButtonComponent from "./components/ButtonComponent";
 import ImageComponent from "./components/ImageComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
@@ -30,20 +30,17 @@ function App() {
       <ImageComponent
         src="https://cdn.wallpapersafari.com/64/77/S1giRy.jpg"
         alt="Bahamas beach"
-        // style="width: 400px; height: 200px"
       ></ImageComponent>
       <ImageComponent
         src="https://i0.wp.com/whitecoatsoftheroundtable.com/wp-content/uploads/2023/03/hd-wallpaper-nature-wallpaper-hills-2836301.jpg?resize=800%2C600&ssl=1"
         alt="Plains"
-        // style="width: 400px; height: 200px"
       ></ImageComponent>
       <ImageComponent
         src="https://www.martulliviaggi.com/wp-content/uploads/2024/07/big-ticket-image-65ef1da4cba4a626865154-cropped600-400.png"
         alt="Dolomiti Sunset"
-        // style="width: 400px; height: 200px"
       ></ImageComponent>
 
-      <div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -62,7 +59,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   );
 }
